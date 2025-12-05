@@ -91,7 +91,6 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 8),
             ],
 
-            // Tombol Login [Halaman 12]
             ElevatedButton(
               onPressed: _isLoading ? null : _login,
               child: _isLoading
